@@ -1,1 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+/* code */
+body {
+    background: #eee;
+    font-family: "Source Sans Pro" Arial, Helvetica, sans-serif; 
+    font-style: normal;
+    font-weight: 200px;
+
+}
+/* when i typed source sans pro  the arial helvetica came up so i tabbed */
+p{
+    font-size: 1em;
+    text-align:left;
+    padding: 1px;
+    font-family: "Source Sans Pro" ;
+
+}
+/* looks like p moves second and thrid article text*/
+.newspaper-container {
+   width: 700px; 
+   padding: 10px;
+   margin: auto;
+   border-radius: 10px;
+   box-shadow:10px 5px 5px #ddd ;
+   background: white;
+   
+}
+.date {
+    text-align: left;
+    font-family: "Abril Fatface";
+}
+ul {
+    list-style-type: none;
+  }
+  nav {
+    margin: 0;
+    padding: 5px;
+    border-bottom:2px solid #eee;
+    border-top:2px solid #eee;
+    background: white; 
+  }
+  nav ul {
+    list-style: none;
+    margin: 0px;
+  }
+  nav li {
+    display: inline-block;
+    padding: 0.6em;
+  }
+  nav a {
+    font-size: 0.7em;
+    color: #777;
+  }
+  main h2 {
+    font-family: "Roboto Slab";
+    margin-bottom: 0;
+    text-align: left;
+  }
+  /* main h2 moves second titile */
+  main h5 {
+    font-family: 'Abril Fatface';
+    color: #dd3232;
+    margin-top: 1em;
+  }
+  .more-articles {
+    border-top:2px solid #eee; 
+    display: inline-block;
+    width: 50%;
+    margin: 0 1em;
+    text-align: left;
+    font-family: "Source Sans Pro" ;
+    
+  }
+  /* .more articles moves small image titles and text below images/width changes image size */
+  .more-articles img{
+    width: 100%;
+    display:flex;
+   
+  }
+  /* .first couldnt figure out how to change text for first paragraph so i gave it a class */
+  .first {
+    text-align: justify;
+    display:inline-block;
+    width: 90%;
+    margin: 1em;
+    border-top:2px solid #eee; 
+    font-family: "Source Sans Pro" ; 
+    
+  }
+  h1{
+    text-align: center; 
+    font-family: 'Abril Fatface';
+    margin: 0;
+    font-size: 2em;
+    
+  }
+  /* h1 moves title of article */
+  main img {
+    width: 100%;
+  }
+  /* tried putting images in own divs to see if i could get them side  by side */
