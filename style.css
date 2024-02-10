@@ -38,6 +38,8 @@ ul {
     border-bottom:2px solid #eee;
     border-top:2px solid #eee;
     background: white; 
+    position: sticky;
+    top: 0;
   }
   nav ul {
     list-style: none;
@@ -64,18 +66,21 @@ ul {
   }
   .more-articles {
     border-top:2px solid #eee; 
-    display: inline-block;
-    width: 50%;
     margin: 0 1em;
-    text-align: left;
+    text-align: center;
     font-family: "Source Sans Pro" ;
     
   }
   /* .more articles moves small image titles and text below images/width changes image size */
   .more-articles img{
     width: 100%;
-    display:flex;
+    /* display:flex; */
    
+  }
+  .more-articles section {
+    display: inline-block;
+    width: 40%;
+    margin: auto;
   }
   /* .first couldnt figure out how to change text for first paragraph so i gave it a class */
   .first {
