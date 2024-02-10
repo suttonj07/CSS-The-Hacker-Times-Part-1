@@ -104,3 +104,15 @@ ul {
     width: 100%;
   }
   /* tried putting images in own divs to see if i could get them side  by side */
+  .bonus section {
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    border-top:2px solid #eee; 
+  }
+  .bonus img {
+    width: 100%;
+    display: inline-block;
+    
+  }
